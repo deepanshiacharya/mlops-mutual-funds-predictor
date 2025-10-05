@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from src.predict import predict
+from .predict import predict
 
 app = FastAPI(title="Mutual Funds Return Predictor", version="1.0.0")
 
